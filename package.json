@@ -1,0 +1,14 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "server.js",
+  "scripts": {
+    "test": "server.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

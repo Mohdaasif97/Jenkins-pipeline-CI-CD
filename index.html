@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="">Game Controllers</a></li>
+                    <li><a href="">VR Accessories</a></li>
+                    <li><a href="">Media Remotes</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="menu.png" class="menu" onclick="togglemenu()">
+        </div>
+        <dev class="row">
+            <div class="col-1">
+                <h2>PS 4 V2 <br> Dual Shock 4</h2>
+                <h3>Wireless Container for PS4</h3>
+                <p>(Compatible/Generic)</p>
+                <h4>$40.50</h4>
+                <button type="button">Buy Now <img src="arrow.png"></button>
+            </div>
+            <div class="col-2">
+                <img src="controller.png" class="controller">
+                <div class="color-box"></div>
+                <div class="addbtn">
+                    <img src="add.png">
+                    <p><small>Add To Cart </small></p>
+                </div>
+            </div>
+        </dev>
+        <div class="social-links">
+            <img src="fb.png">
+            <img src="tw.png">
+            <img src="ig.png">
+        </div>
+    </div>
+</body>
+
+<script>
+    var menulist = document.getElementById("menulist");
+    menulist.style.maxHeight = "0px";
+    function togglemenu() {
+        if (menulist.style.maxHeight == "0px") {
+            menulist.style.maxHeight = "130px"
+        }
+        else {
+            menulist.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</html>

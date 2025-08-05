@@ -15,6 +15,7 @@
 
 }
 
+
 .navbar {
     width: 100%;
     display: flex;
@@ -237,3 +238,4 @@ button:hover {
         font-size: 15px;
     }
 }
+

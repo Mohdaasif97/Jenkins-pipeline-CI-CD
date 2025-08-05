@@ -86,3 +86,4 @@ docker-compose exec app bash   # Access container
 - Environment-based secrets
 - Automated vulnerability scanning
 - Network isolation
+# Jenkins-pipeline-CI-CD

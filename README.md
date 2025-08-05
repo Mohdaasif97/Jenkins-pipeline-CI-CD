@@ -2,12 +2,7 @@
 
 A Node.js website containerized with Docker and automated deployment using Jenkins CI/CD pipeline.
 
-## 🚀 Quick Start
 
-### Prerequisites
-- Docker & Docker Compose
-- Jenkins (2.400+)
-- Git
 
 ### Installation
 
@@ -67,12 +62,6 @@ docker-compose logs -f app
 - Dev: http://dev.yourdomain.com
 - Prod: http://yourdomain.com
 
-## 🐛 Troubleshooting
-
-### Common Issues
-- **App won't start**: Check Docker daemon and port availability
-- **Pipeline fails**: Verify Jenkins plugins and Docker permissions
-- **Container exits**: Check logs with `docker logs <container-id>`
 
 ### Debug Commands
 ```bash

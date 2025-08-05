@@ -43,12 +43,6 @@ When I push code to GitHub:
 - Jenkins running
 - GitHub repository
 
-## Project Files
-
-- `server.js` - Main website code
-- `Dockerfile` - Instructions to build container
-- `Jenkinsfile` - Pipeline steps
-- `package.json` - App dependencies
 
 ## What I Learned
 

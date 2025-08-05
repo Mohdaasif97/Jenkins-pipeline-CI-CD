@@ -31,7 +31,7 @@ docker-compose up -d
 
 When I push code to GitHub:
 
-1. **Jenkins notices** - Automatically starts when code changes
+1. **Jenkins notices** - Automatically starts when code changes-To make this happen, I used a GitHub webhook.
 2. **Gets the code** - Downloads latest version from GitHub  
 3. **Builds Docker image** - Creates a container with my app
 4. **Runs tests** - Makes sure everything works
